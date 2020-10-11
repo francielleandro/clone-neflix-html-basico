@@ -1,0 +1,23 @@
+@media screen and (max-width:700px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container .menu {
+        display: none;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 200px;
+
+    }
+}
+
+@media screen and (max-width:900px){
+
+    header .container .menu {
+        display: none;
+    }
+}
